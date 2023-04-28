@@ -5,13 +5,13 @@ import smtplib
 import ssl
 
 # MQTT broker settings
-mqtt_broker = "broker.emqx.io"
+mqtt_broker = "broker.hivemq.com"
 mqtt_port = 1883
-mqtt_topic = "dlaw4608/home/predictions/motion"
+mqtt_topic = "dlaw4608/home/predictions/real_motion"
 
 email_sender = 'standfallwatch123@gmail.com'
 email_password = "sguxfhwqgkyyjcwn"
-email_receiver = "niyit78387@ippals.com"
+email_receiver = "hodig77818@larland.com"
 
 em = EmailMessage()
 em['From'] = email_sender
